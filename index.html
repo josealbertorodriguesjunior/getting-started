@@ -139,21 +139,21 @@
                     <h1>Introduction</h1><br/>
                     <p>You can get started with <a href="https://subutai.io/" target="_blank">Subutai</a> in at least two different ways:</p>
                     <ul>
-                        <li>Register at the Subutai Bazaar, our social marketplace for user-administered P2P cloud services, and start creating environments on other users’ peers; </li>
-                        <li>Install the PeerOS in one or more computers and start offering your own computational resources for hire, barter or share.</li>
+                        <li>Register at the <a href="#Bazaar">Subutai Bazaar</a>, our social marketplace for user-administered P2P cloud services, and start creating environments on other users’ peers; </li>
+                        <li>Install the <a href="#PeerOS">PeerOS</a> in one or more computers and start offering your own computational resources for hire, barter or share.</li>
                     </ul>
                     <p>In both cases, you will also need to install companion software to ease your life:</p>
                     <ul>
-                        <li>The E2E (end-to-end encryption) plugin for your browser helps manage your SSH keys needed to ensure secure communications with Subutai components;</li>
-                        <li>The P2P (peer-to-peer) daemon (optional install) will allow your own PC to swarm up with the Subutai P2P cloud;</li>
-                        <li>The Subutai Control Center in your desktop computer (optional install) will give you quick access to your Peers, Environments and <a href="https://subutai.io/goodwill.html" target="_blank"> GoodWill balance</a>.</li>
+                        <li>The <a href="#E2E">E2E (end-to-end encryption) plugin</a> for your browser helps manage your SSH keys needed to ensure secure communications with Subutai components;</li>
+                        <li>The <a href="#P2P">P2P (peer-to-peer) daemon</a> (optional install) will allow your own PC to swarm up with the Subutai P2P cloud;</li>
+                        <li>The <a href="#Control-Center">Subutai Control Center</a> in your desktop computer (optional install) will give you quick access to your Peers, Environments and <a href="https://subutai.io/goodwill.html" target="_blank"> GoodWill balance</a>.</li>
                     </ul>
                 </div>
                 </div><br/>
 
                 <div class="row">
                     <div  class="col-lg-4 col-sm-12 mb-4 d-flex justify-content-center align-items-center">
-                      <img src="img/baazar.png" class="img-responsive center-block">
+                      <a name="Bazaar"><img src="img/baazar.png" class="img-responsive center-block"></a>
                     </div>
                 </div>
                 <div class="row">
@@ -161,7 +161,8 @@
                         <ul>
                             <li>Learn more about the Subutai Bazaar: <a href="https://subutai.io/bazaar.html" target="_blank"> overview</a></li>
                             <li>Sign up and log in</li>
-                            <li>The basics:</li>
+                            <li>We recommended you to install at least the <a href=#E2E>E2E browser plugin</a> before using the Bazaar. It will ease the management of encryption keys. For some operations you will also need the <a href="P2P">P2P daemon</a> and  <a href="Control-Center">Subutai Control Center</a>.</li>
+                            <li>Learn the basics:</li>
                                 <ul>
                                     <li><a href="https://docs.subutai.io/Products/Bazaar/20_War_room.html" target="_blank">War Room</a></li>
                                     <li><a href="https://docs.subutai.io/Products/Bazaar/21_Peers.html" target="_blank">Peers</a></li>
@@ -170,7 +171,6 @@
                                     <li><a href="https://docs.subutai.io/Products/Bazaar/11_Organizations_user.html" target="_blank">Organizations</a></li>
                                 </ul>
                             <li><a href="https://docs.subutai.io/Products/Bazaar_toctree.html" target="_blank">Full documentation</a></li>
-                            <li>Make sure you install at least the E2E browser plugin before starting to use the Bazaar. Although not mandatory, it will ease the management of encryption keys.</li>
                         </ul><br/>
                     </div>
                     <div class="col-lg-5 col-sm-12 mb-4 d-flex justify-content-center align-items-center">
@@ -180,7 +180,7 @@
 
                 <div class="row">
                     <div class="col-lg-4">
-                        <img src="img/peer.png" class="img-responsive center-block">
+                        <a name="PeerOS"><img src="img/peer.png" class="img-responsive center-block"></a>
                     </div>
                 </div>
                 <div class="row">
@@ -191,6 +191,7 @@
                             <ul>
                                 <li><a href="https://docs.subutai.io/Products/PeerOS/03_Run_PeerOS_with_Vagrant.html" target="_blank"> Quick install</a> - 5 minutes. Prerequisites: any system using Vagrant, 110G disk.</li>
                                 <li><a href="https://docs.subutai.io/Products/PeerOS/02_Install_PeerOS.html" target="_blank">Advanced admin installation </a>- 20 minutes. Prerequisites: Debian system (preferably fresh installed), 100G disk.</li>
+                                <li>You will need the <a href="P2P">P2P daemon</a> and  <a href="Control-Center">Subutai Control Center</a> on your Desktop in order to access your Peer. We recommended you also to install the <a href=#E2E>E2E browser plugin</a> to ease the management of encryption keys.</li>
                             </ul>
                             <li>The basics:</li>
                                 <ul>
@@ -198,7 +199,6 @@
                                     <li><a href="https://docs.subutai.io/Products/PeerOS/07_How_to_update_Subutai_components.html" target="_blank">How to update Subutai components</a></li>
                                 </ul>
                             <li><a href="https://docs.subutai.io/Products/PeerOS_toctree.html" target="_blank">Full documentation</a></li>
-                            <li>Make sure you install at least the E2E browser plugin before starting to use the Bazaar. Although not mandatory, it will ease the management of encryption keys.</li>
                         </ul>
                     </div><br/>
                     <div class="col-lg-5 col-sm-12 mb-4 d-flex justify-content-center align-items-center">
@@ -210,26 +210,26 @@
                     <div class="col-lg-12">
                         <h1>Companion software</h1><br/>
 
-                        <h2 style="color: #078DD0;">Browser plugin</h2>
+                        <h2 style="color: #078DD0;"><a name="E2E">Browser plugin</a></h2>
                         <p>The E2E browser plugin is available directly from the official stores of the main browsers - versions for Chrome, Firefox and Safari are currently offered. It will remove the hassle of managing SSH keys that are required to ensure secure communications within the Subutai platform.</p><br/>
 
-                        <h2 style="color: #078DD0;">P2P daemon</h2>
+                        <h2 style="color: #078DD0;"><a name="P2P">P2P daemon</a></h2>
                         <p>The P2P daemon allows your system to join the swarm to access private cloud environments. It is required if you want to access your Peers, containers and Environments via SSH or Remote Desktop from the Bazaar, Subutai Console or Control Center.</p>
                             <ul>
-                                <li>In order to download and install the P2P Daemon, please hop to the <a href="https://subutai.io/downloads.html">Downloads</a>  page (versions for Windows, Mac and Linux available) and follow the instructions.</li>
+                                <li>In order to download and install the P2P Daemon, please hop to the <a href="#Downloads">Downloads</a> section (versions for Windows, Mac and Linux available) and follow the instructions.</li>
                             </ul><br/>
 
-                        <h2 style="color: #078DD0;">Control Center</h2>
+                        <h2 style="color: #078DD0;"><a name="Control-Center">Control Center</a></h2>
                         <p>The Subutai Control Center allows you to access your Peers, containers and Environments via SSH or Remote Desktop, as well as checking and updating relevant local software and showing your GoodWill balance. Add that we have file transfer system - users are able to easily upload and download their files to the remote cloud storage in a secure way.</p>
                             <ul>
-                                <li>In order to download and install the Subutai Control Center, please hop to the <a href="https://subutai.io/downloads.html" target="_blank"> Downloads</a> page (versions for Windows, Mac and Linux available).</li>
+                                <li>In order to download and install the Subutai Control Center, please hop to the <a href="#Downloads">Downloads</a> section (versions for Windows, Mac and Linux available).</li>
                                 <li>Learn <a href="https://docs.subutai.io/Products/PeerOS/06_How_to_use_Control_Center_and_P2P.html">how to use</a>  the Control Center.</li>
                             </ul>
                     </div>
                 </div>
 
                 <div id="installation"></div>
-                            <h1>Download</h1>
+                            <h1><a name="Downloads">Downloads</a></h1>
                             <br>
                             <div class="tabs_download">
                                 <ul class="nav nav-pills nav-justified">
