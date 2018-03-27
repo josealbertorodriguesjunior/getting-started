@@ -260,20 +260,11 @@ section .cont-part5 .form-control{
     border-radius: 4px;
 }
 
-.navbar .mailchimp {
-	clear:left;
-	font:15px 'Maven Pro', sans-serif;;
-	color: #fff;
+
+section .cont-part5 .mailchimp{
+	margin-left: 20%;
 }
 
-.navbar .mailchimp #mc_embed_signup form {
-    display: -webkit-box;
-    /* position: relative; */
-    /* text-align: left; */
-    /* padding: 15px 0 0px 0; */
-    margin-right: 50px;
-    margin-top: 8px;
-}
 
 /*CSS Section 5 - Tribute*/
 section .cont-part6{
